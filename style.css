@@ -181,7 +181,7 @@ section{
 /*Reflections*/
 .reflections{
     width: 75%;
-    
+
     border-radius: 5px;
 
     box-shadow: 0.125rem 0.125rem 0.8rem rgba(0, 0, 0, 0.75);
@@ -359,4 +359,47 @@ section{
     background: #53BCC0;
 
     transition: 1s;
+}
+
+/*Blogs*/
+
+.blog-space{
+    margin: 1vw 5vw 1vw 5vw;
+
+    text-align: justify;
+    
+    color: black;
+
+    font-size: 1rem;
+}
+
+.blog-text{
+    margin: 1.5vw 15vw 1.5vw 15vw;
+    padding-bottom: 5vh;
+
+    background-color: white;
+
+    border-radius: 5px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0.125rem 0.125rem 0.8rem rgba(0, 0, 0, 0.75);
+}
+
+.blog-text p{
+    margin: 1vw 5vw 1vw 5vw;
+    line-height: 1.5;
+}
+
+.blog-text p:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 0;
+
+    padding-bottom: 2.5vh;
+    padding-top: 5vh;
+
 }
