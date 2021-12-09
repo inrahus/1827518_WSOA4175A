@@ -149,6 +149,7 @@ section{
     overflow: hidden;
 
     text-align: center;
+
 }
 
 /*Art*/
@@ -176,6 +177,8 @@ section{
     color: transparent;
 
     margin: 5%;
+
+    text-align: justify;
 }
 
 /*Reflections*/
@@ -186,6 +189,12 @@ section{
 
     box-shadow: 0.125rem 0.125rem 0.8rem rgba(0, 0, 0, 0.75);
 
+}
+
+.reflections p{
+    margin: 15px;
+
+    text-align: justify;
 }
 
 /*Blogs*/
@@ -216,6 +225,8 @@ section{
     position: relative;
 
     overflow: hidden;
+
+    display: flex;
 }
 
 .blog-colm img{
@@ -312,9 +323,13 @@ section{
         font-size: 14px;
     }
 
-    .reflections colm{
+    .reflections .colm{
         flex-direction: column;
         height: 100%;
+    }
+
+    .blog-row{
+        flex-direction: column;
     }
 }
 
@@ -385,7 +400,7 @@ section{
     display: flex;
     flex-direction: column;
 
-    box-shadow: 0.125rem 0.125rem 0.8rem rgba(0, 0, 0, 0.75);
+    
 }
 
 .blog-text p{
